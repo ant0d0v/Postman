@@ -1,0 +1,172 @@
+{
+	"id": "901f7dc3-dc52-44bd-afb2-f506cc65c5f4",
+	"name": "HW_Postman1",
+	"timestamp": "2022-01-22T23:38:54.066Z",
+	"collection_id": "19188905-b0461a09-9ab2-4034-88f2-d3cb68c5e413",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ce098113-1e28-4ef5-81e2-a5e3a003787e",
+			"name": "EP_1",
+			"url": "http://162.55.220.72:5005/get_method?name=Liudmyla&age=26",
+			"time": 206,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				206
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "df0289d3-210f-4af6-8aba-6eab9afb65e0",
+			"name": "EP_2",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 421,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				421
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3e03ce88-3178-4461-ac3a-33649a250782",
+			"name": "EP_3",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Liudmyla&age=26&weight=55",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4119b392-3461-4315-a4d0-c14245b0fa80",
+			"name": "EP_4",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Liudmyla&age=26&salary=10000",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				87
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e42b658c-6207-4a04-bfd5-f2581204b21e",
+			"name": "EP_5",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Liudmyla&age=26&salary=10000",
+			"time": 86,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				86
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "43ea141a-5a36-49e3-ad6e-40ee13d01cb2",
+			"name": "EP_6",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Liudmyla&age=26&salary=10000",
+			"time": 119,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				119
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "76d3200c-e341-41d6-b7ec-6974cfd0aa3a",
+			"name": "EP_7",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 186,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				186
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1195,
+	"collection": {
+		"requests": [
+			{
+				"id": "ce098113-1e28-4ef5-81e2-a5e3a003787e",
+				"method": "GET"
+			},
+			{
+				"id": "df0289d3-210f-4af6-8aba-6eab9afb65e0",
+				"method": "POST"
+			},
+			{
+				"id": "3e03ce88-3178-4461-ac3a-33649a250782",
+				"method": "GET"
+			},
+			{
+				"id": "4119b392-3461-4315-a4d0-c14245b0fa80",
+				"method": "GET"
+			},
+			{
+				"id": "e42b658c-6207-4a04-bfd5-f2581204b21e",
+				"method": "GET"
+			},
+			{
+				"id": "43ea141a-5a36-49e3-ad6e-40ee13d01cb2",
+				"method": "GET"
+			},
+			{
+				"id": "76d3200c-e341-41d6-b7ec-6974cfd0aa3a",
+				"method": "POST"
+			}
+		]
+	}
+}
