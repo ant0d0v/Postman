@@ -11,7 +11,7 @@
 		{
 			"id": "ce098113-1e28-4ef5-81e2-a5e3a003787e",
 			"name": "EP_1",
-			"url": "http://162.55.220.72:5005/get_method?name=Liudmyla&age=26",
+			"url": "http://162.55.220.72:5005/get_method?name=Anton&age=26",
 			"time": 206,
 			"responseCode": {
 				"code": 200,
@@ -47,7 +47,7 @@
 		{
 			"id": "3e03ce88-3178-4461-ac3a-33649a250782",
 			"name": "EP_3",
-			"url": "http://162.55.220.72:5005/object_info_1?name=Liudmyla&age=26&weight=55",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Anton&age=26&weight=55",
 			"time": 90,
 			"responseCode": {
 				"code": 200,
@@ -65,7 +65,7 @@
 		{
 			"id": "4119b392-3461-4315-a4d0-c14245b0fa80",
 			"name": "EP_4",
-			"url": "http://162.55.220.72:5005/object_info_2?name=Liudmyla&age=26&salary=10000",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Anton&age=26&salary=10000",
 			"time": 87,
 			"responseCode": {
 				"code": 200,
@@ -83,7 +83,7 @@
 		{
 			"id": "e42b658c-6207-4a04-bfd5-f2581204b21e",
 			"name": "EP_5",
-			"url": "http://162.55.220.72:5005/object_info_3?name=Liudmyla&age=26&salary=10000",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Anton&age=26&salary=10000",
 			"time": 86,
 			"responseCode": {
 				"code": 200,
@@ -101,7 +101,7 @@
 		{
 			"id": "43ea141a-5a36-49e3-ad6e-40ee13d01cb2",
 			"name": "EP_6",
-			"url": "http://162.55.220.72:5005/object_info_4?name=Liudmyla&age=26&salary=10000",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Anton&age=26&salary=10000",
 			"time": 119,
 			"responseCode": {
 				"code": 200,
@@ -169,4 +169,3 @@
 			}
 		]
 	}
-}
