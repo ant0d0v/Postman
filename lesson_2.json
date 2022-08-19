@@ -1,0 +1,28 @@
+//lesson 2. Testing API use snippets
+
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+    let jsonData = pm.response.json();
+    let resp_salary_1_5 = jsonData.family.u_salary_1_5_year
+    let req = request.data
+    let req_salary = req.salary;
+    let req_salary_1_5 = req_salary * 4 ;
+
+    let person = jsonData.family.children ;
+     console.log("person---", person) 
+
+
+    pm.test("Salary_4", function () {
+    pm.expect(req_salary_1_5).to.eql(resp_salary_1_5 );
+});
+
+pm.test("Check family ", function () {
+    pm.expect(JSON.stringify(jsonData)).to.include("family");
+});
+
+  pm.test("Person_age", function () {
+    pm.expect(person[0][1]).to.eql(24);
+});
